@@ -10,7 +10,9 @@ from evernote.edam.notestore.ttypes import NoteFilter
 from evernote.edam.type.ttypes import NoteSortOrder
 import re
 
-
+def format_url(url):
+    u = "<a href='" + url + "'>" + url + "</a>"
+    return u
 
 def add_to_note(title, newline):# 需输入笔记标题和需要添加的内容
     # auth_token申请地址：https://dev.yinxiang.com/doc/articles/dev_tokens.php
