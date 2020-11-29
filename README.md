@@ -3,3 +3,4 @@
 -  请先申请evernote auth_token，申请地址：https://dev.yinxiang.com/doc/articles/dev_tokens.php
 -  pip install evernote3
 -  关于Evernote Markup Language (ENML)请参考：https://dev.yinxiang.com/doc/articles/enml.php
+-  关于Evernote SDK for Python 3请参考：https://github.com/evernote/evernote-sdk-python3
