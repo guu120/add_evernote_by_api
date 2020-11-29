@@ -86,7 +86,7 @@ def add_to_note(title, newline):# 需输入笔记标题和需要添加的内容
 # if __name__ == '__main__':
     # #############
     # note_title = 'test log'
-    # newline = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime()) + ' say hi ;)'
+    # newline = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime()) + ' say hi ;) ' + format_url('https://movie.douban.com/subject/1294570/')
     # add_to_note(note_title, newline)
     # ##############
  
